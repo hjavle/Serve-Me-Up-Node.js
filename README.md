@@ -61,7 +61,7 @@
 * Add a `gif` to showcase your work **_25 pts_**
 ---
 ### App
-![](/ServeMeUP copy.gif)
+![ServeMeUp App](./ServeMeUp.gif)
 
 
 ## ❤ **_Happy Coding_** ❤
