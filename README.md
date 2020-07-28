@@ -61,7 +61,7 @@
 * Add a `gif` to showcase your work **_25 pts_**
 ---
 ### App
-![](/smuHJ 2020-07-27.mov)
+![](/ServeMeUP copy.gifJ)
 
 
 ## ❤ **_Happy Coding_** ❤

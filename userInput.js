@@ -10,6 +10,7 @@ sayHello() // display sayHello message
 
 // prompt user with User questions using inquirer  
 // after user inputs data write password to userPassword.txt file 
+
 function userQuestions (){
     inquirer.prompt([
     {
@@ -33,35 +34,20 @@ function userQuestions (){
   .then(function(data) {
       if (data.password !== data.confirm){ // checking if both entered passwords are same if not reenter all the information
         console.log("Passwords do not match, Please re-enter your information");
-        userQuestions();
+        userQuestions ();
       }else{
         var fs = require("fs");
-// storing user entered information in the userPassword.txt
-        fs.writeFile("userPassword.txt",data.username + " : " + data.password, function(err) {
-
+        // storing user entered information in the userPassword.txt
+        fs.writeFile("userPassword.txt","User Name:  " + data.username + " || " + "Password:  " + data.password, function(err) {
+       // fs.appendFile("userPassword.txt",data.username + " : " + data.password, function(err) {
         if (err) {
             return console.log(err);
         }else{
-            console.log("Success!");
-        }
-    
+            console.log("Password saved!");
+        }   
 });
 }
 });
 }
 userQuestions();
-  
-/*var server = http.createServer(function (req, res) {   // 2 - creating server
 
-    //handle incomming requests here..
-
-
-    
-    
-
-
-});
-
-server.listen(5000); //3 - listen for any incoming requests
-
-console.log('Node.js web server at port 5000 is running..') */
