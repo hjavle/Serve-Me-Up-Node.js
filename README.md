@@ -1,7 +1,7 @@
 # Serve Me Up 
 ![](images/images/nodejs.jpg)
 
-<img src= "https://img.shields.io/badge/JavaScript-100.0%25-green"> <br/>
+<img src= "https://img.shields.io/badge/JavaScript-100.0%25-green"> <img src= "https://img.shields.io/badge/Download-npm-green"> <br/>
 
 ## Homework Description 
 #### In your working directory you will initiate a server using Node.js that accepts command line user input, which will save user input to a text file. 
